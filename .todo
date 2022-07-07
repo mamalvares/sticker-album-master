@@ -1,0 +1,17 @@
+- Página de login (Responsiva).
+
+- Configurar sistema de login por cadastro ou utilizando conta google/apple etc.
+
+- Aprender a manipular table (tabelas), para quando clicar na
+figurinha desejada da tabela ('ex 232'), ficar colorido indicando que ja possui,
+e ao mesmo tempo criar uma porcentagem fazendo um cálculo em tempo real para
+o usuário ter a ideia de quantos porcento ele já completou do album de figurinhas.
+
+- Ao fechar o site, os dados devem ser guardados em um banco de dados (firebase ou
+mysql, ou próprio device(Localstorage do JS)).
+
+- Criar em reactJS ou html css js (utilizando tailwindcss ou bootstrap).
+
+- Hospedar site na plataforma da netlify.
+
+- Publicar projeto no github e compartilhar com os amigos.
