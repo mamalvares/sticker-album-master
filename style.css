@@ -13,13 +13,14 @@
 
 body {
     background-color: rgb(226, 226, 226);
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
     background-color: var(--main-color);
     font-family: 'Poppins', sans-serif;
 }
@@ -68,6 +69,8 @@ nav {
     transition: all 0.3s ease;
 }
 
+/* Style Figurinha */
+
 .controle-figurinha {}
 
 .main-title h1 {
@@ -79,13 +82,13 @@ nav {
     margin-top: 3rem;
 }
 
-.table-figurinha {
+.lista-figurinha {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.table-figurinha table {
+.lista-figurinha table {
     border: 1px solid white;
     max-width: 760px;
     display: flex;
@@ -96,7 +99,21 @@ nav {
     background-color: var(--alternative-color);
     color: white;
     font-size: 20px;
+    border-radius: .5rem;
 }
+
+/* hero image */
+
+.hero-image {
+    background-image: url("https://cdn.pixabay.com/photo/2013/12/12/21/48/football-stadium-227561_960_720.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Responsive */
 
 @media screen and (max-width: 1024px) {
     .nav-links {
