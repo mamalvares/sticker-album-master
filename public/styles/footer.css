@@ -18,8 +18,7 @@ footer {
     height: auto;
     width: 100vw;
     padding-top: 40px;
-    margin-top: 1rem;
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .footer-content {
@@ -42,7 +41,7 @@ footer {
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
-    color: #cacdd2;
+    color: var(--secondary-color);
 }
 
 .socials {
@@ -117,7 +116,7 @@ footer {
 }
 
 .footer-menu ul li a {
-    color: #cfd2d6;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
