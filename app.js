@@ -21,3 +21,11 @@ const navSlide = () => {
 }
 
 navSlide();
+
+let text = "";
+
+for (let i = 0; i < 670; i++) {
+  text += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
