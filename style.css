@@ -101,6 +101,20 @@ html {
     color: white;
 }
 
+.hero-section {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background: var(--secondary-color);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    position: relative;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1024px) {
