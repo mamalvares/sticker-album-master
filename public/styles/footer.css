@@ -79,7 +79,7 @@ footer {
     background: #000;
     width: 100vw;
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -129,6 +129,6 @@ footer {
     .footer-menu ul {
         display: flex;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 23px;
     }
 }
