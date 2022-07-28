@@ -13,6 +13,8 @@ melhor.
 - Ao fechar o site, os dados devem ser guardados em um banco de dados (firebase ou
 mysql, ou próprio device(Localstorage do JS)).
 
+- criar html pages com nome dos paises
+
 - Criar em reactJS ou html css js (utilizando tailwindcss ou bootstrap).
 
 - Hospedar site na plataforma da netlify.
