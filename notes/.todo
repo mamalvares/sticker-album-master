@@ -10,12 +10,12 @@ o usuário ter a ideia de quantos porcento ele já completou do album de figurin
 - separar page figurinhas por time (dropdown menu) e mostrar a quantidade de figurinhas por time, para organizar
 melhor.
 
+- na page gastos, criar div com input e button para colocar o valor gasto e somar com o total que ira aparecer na direita, mostrando automaticamente o valor total gasto, a quantidade de pacotes e de figurinhas compradas.
+
 - Ao fechar o site, os dados devem ser guardados em um banco de dados (firebase ou
 mysql, ou próprio device(Localstorage do JS)).
 
 - criar html pages com nome dos paises
-
-- Criar em reactJS ou html css js (utilizando tailwindcss ou bootstrap).
 
 - Hospedar site na plataforma da netlify.
 

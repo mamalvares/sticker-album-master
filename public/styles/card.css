@@ -1,5 +1,6 @@
 .content {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: center;
@@ -13,34 +14,58 @@
     box-shadow: 0px 2px 23px #26395338;
 }
 
-.mediaCard{
-    background: url("/public/images/figurinhas/exemplo-figurinha.jpg") center/cover;
-    height: 280px;
-    width: 100%;
+.topCard {
+    padding: 5px 20px;
 }
 
-.topCard {
-    padding: 0 20px;
+.backgroundCard {
+    background-color: gray;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bottomCard {
     padding: 20px;
 }
 
-.actions {
-    background: gray;
+.titleNumeroFigurinha {
+    font-size: 22px;
+}
+
+.actionsCard {
     border-radius: .5rem;
     color: red;
+    text-align: center;
 }
 
-.mediaCardFaltante{
-    background-color: gray;
-    height: 280px;
-    width: 100%;
+.actionsCard button {
+    width: 4rem;
+    background-color: white;
+    border-radius: .5rem;
+    cursor: pointer;
 }
 
-.numeroFigurinhaFaltante {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.actionsCard span {
+    font-size: 20px;
+}
+
+.actionsCard .tenhoFigurinha:hover {
+    background-color: green;
+    color: white;
+}
+
+.actionsCard .faltaFigurinha:hover {
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        margin-top: 3rem;
+        height: 140vh;
+    }
 }
