@@ -100,6 +100,21 @@ nav {
     position: relative;
 }
 
+/* controle div */
+
+.controle-div {
+    height: 100vh;
+}
+
+.main-title h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 760px;
+    margin-top: 3rem;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1024px) {
