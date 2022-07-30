@@ -1,5 +1,13 @@
-let backgroundCard = document.getElementsByClassName("backgroundCard");
-let numeroFigurinha = document.getElementsByClassName("numeroFigurinha");
+function checkFigurinha(){
+    var backgroundCard = document.getElementById("backgroundCard");
+    var numeroFigurinha = document.getElementById("numeroFigurinha");
+    backgroundCard.style.backgroundColor = "green";
+    numeroFigurinha.style.color = "white";
+}
 
-let tenho = document.getElementsByClassName("tenhoFigurinha");
-let falta = document.getElementsByClassName("faltaFigurinha");
+function uncheckFigurinha(){
+    var backgroundCard = document.getElementById("backgroundCard");
+    var numeroFigurinha = document.getElementById("numeroFigurinha");
+    backgroundCard.style.backgroundColor = "red";
+    numeroFigurinha.style.color = "white";
+}

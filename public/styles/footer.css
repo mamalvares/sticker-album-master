@@ -118,12 +118,15 @@ footer {
 .footer-menu ul li a {
     color: var(--secondary-color);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .footer-menu ul li a:hover {
     color: var(--alternative-color);
     transition: all 0.3s ease;
 }
+
+/* Responsive */
 
 @media (max-width:500px) {
     .footer-menu ul {
