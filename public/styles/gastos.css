@@ -6,7 +6,42 @@
 }
 
 .controle-gastos {
-    
+    height: 100vh;
+}
+
+.input-gastos {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.insira-valor {
+    display: flex;
+    flex-direction: column;
+}
+
+.insira-valor input,
+button {
+    width: 5rem;
+}
+
+.insira-valor button {
+    background-color: var(--main-color);
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.insira-valor button:hover {
+    background-color: #92576a;
+    transition: all 0.3s ease;
+}
+
+.valor-total ul li p {
+    display: inline-block;
 }
 
 /* Responsive */

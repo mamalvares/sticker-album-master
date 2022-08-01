@@ -5,8 +5,7 @@
     --terciary-color: #766d6f;
 }
 
-.controle-figurinha {
-}
+.controle-figurinha {}
 
 .main-title h1 {
     display: flex;
@@ -17,7 +16,7 @@
     margin-top: 3rem;
 }
 
-.lista-times ul{
+.lista-times ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +33,10 @@
 
 .lista-times a:hover {
     color: var(--main-color);
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px var(--main-color);
+    border-radius: .5rem;
 }
 
 .lista-figurinha {
@@ -43,12 +46,13 @@
 }
 
 .lista-figurinha table {
-    border: 1px solid white;
-    max-width: 760px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 1px solid white;
+    max-width: 760px;
+    padding: 10px;
     margin-top: 1rem;
     background-color: var(--alternative-color);
     color: white;
